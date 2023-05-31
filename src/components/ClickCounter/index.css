@@ -1,13 +1,15 @@
 /* Write your CSS here */
 .bg-container {
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f1f5f8;
   height: 100vh;
 }
-
+span {
+  color: #c20a72;
+}
 .heading {
   color: #2d3a35;
   font-family: 'Roboto';
@@ -20,10 +22,10 @@
   font-size: 20px;
 }
 
-.button {
-  color: #ffffff;
+button {
   background-color: #007bff;
   border-radius: 5px;
   border-width: 0px;
+  color: aliceblue;
   height: 30px;
 }
